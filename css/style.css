@@ -1,0 +1,14 @@
+* {
+    font-family: 'Lato', Helvetica, sans-serif
+}
+
+#kategoria {
+    font-style: italic;
+}
+#ksiazki {
+    line-height: 0.6em;
+}
+#stopka {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

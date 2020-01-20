@@ -1,0 +1,72 @@
+[
+        {
+            "tytul": "Ekspozycja",
+            "autor": "Remigiusz Mróz",
+            "wydawnictwo": "Filia",
+            "kategoria": "kryminał",
+            "okladka": "ekspozycja.jpg"
+        },
+        {
+            "tytul": "Większość Bezwzględna",
+            "autor": "Remigiusz Mróz",
+            "wydawnictwo": "Filia",
+            "kategoria": "political fiction",
+            "okladka": "wiekszosc-bezwzgledna.jpg"
+        },
+        {
+            "tytul": "Czysty kod",
+            "autor": "Robert C. Martin",
+            "wydawnictwo": "Helion",
+            "kategoria": "informatyka",
+            "okladka": "czysty-kod.jpg"
+        },
+        {
+            "tytul": "Bieguni",
+            "autor": "Olga Tokarczuk",
+            "wydawnictwo": "Literackie",
+            "kategoria": "literatura piękna",
+            "okladka": "bieguni.jpg"
+        },
+        {
+            "tytul": "Lalka",
+            "autor": "Bolesław Prus",
+            "wydawnictwo": "Wydawnictwo Zakład Narodowy im. Ossolińskich",
+            "kategoria": "klasyka",
+            "okladka": "lalka.jpg"
+        },
+        {
+            "tytul": "Java. Podstawy. Wydanie X",
+            "autor": "Cay S. Horstmann",
+            "wydawnictwo": "Helion",
+            "kategoria": "informatyka",
+            "okladka": "java-x.jpg"
+        },
+        {
+            "tytul": "Ostatnie życzenie",
+            "autor": "Andrzej Sapkowski",
+            "wydawnictwo": "superNOWA",
+            "kategoria": "fantasy",
+            "okladka": "ostatnie-zyczenia.jpg"
+        },
+        {
+            "tytul": "Rasputin. Wiara, władza i zmierzch dynastii Romanowów",
+            "autor": "Douglas Smith",
+            "wydawnictwo": "Literackie",
+            "kategoria": "biografia",
+            "okladka": "rasputin.jpg"
+        },
+        {
+            "tytul": "Księgi Jakubowe",
+            "autor": "Olga Tokarczuk",
+            "wydawnictwo": "Literackie",
+            "kategoria": "powieść historyczna",
+            "okladka": "ksiegi-jakubowe.jpg"
+        },
+        {
+            "tytul": "Cæremoniale Episcoporum",
+            "autor": "praca zbiorowa",
+            "wydawnictwo": "Libreria Editrice Vaticana",
+            "kategoria": "księga liturgiczna",
+            "okladka": "caeremoniale-episcoporum.jpg"
+        }
+]

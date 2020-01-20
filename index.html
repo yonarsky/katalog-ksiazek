@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>myBOOK</title>
+  </head>
+  <body>
+      <div class="container">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">myBOOK</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(obecnie)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#katalog">Katalog książek</a>
+                </li>
+            </ul>
+
+        </div>
+        </nav>
+
+
+
+            <div class="jumbotron">
+                <h1 class="display-4">Witaj czytelniku!</h1>
+                <p class="lead">Świat książek stoi przed Tobą otworem! Wejdź do niego już dzisiaj!</p>
+                <hr class="my-4">
+                <p>Zobacz polecane przez nas książki.</p>
+                <div id="katalog"></div>
+            </div>
+
+    <div class="container">
+        <div class="row">
+        <div class="input-group mb-3">
+           <input class="form-control" id="search" type="text" placeholder="Szukaj">
+        </div>
+    </div>
+    </div>
+    <div class="row" id="ksiazki">
+        <div class="col-md-6" id="ekspozycja">
+            <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="img/ekspozycja.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title" id="tytul">Ekspozycja</h5>
+                <p class="card-text" id="autor">Mróz Remigiusz</p>
+                <p class="card-text" id="wydawnictwo"><small class="text-muted">Wydawnictwo Filia</small></p>
+                <p class="card-text" id="kategoria"><small class="text-muted">kryminał</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-6" id="wiekszosc-bezwzgledna">
+            <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="img/wiekszosc-bezwzgledna.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title" id="tytul">Większość bezwzględna</h5>
+                <p class="card-text" id="autor">Mróz Remigiusz</p>
+                <p class="card-text" id="wydawnictwo"><small class="text-muted">Wydawnictwo Filia</small></p>
+                <p class="card-text" id="kategoria"><small class="text-muted">political fiction</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-6" id="czysty-kod">
+            <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="img/czysty-kod.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title" id="tytul">Czysty kod</h5>
+                <p class="card-text" id="autor">Martin Robert C.</p>
+                <p class="card-text" id="wydawnictwo"><small class="text-muted">Wydawnictwo Helion</small></p>
+                <p class="card-text" id="kategoria"><small class="text-muted">informatyka</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-6" id="bieguni">
+            <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="img/bieguni.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title" id="tytul">Bieguni</h5>
+                <p class="card-text" id="autor">Tokarczuk Olga</p>
+                <p class="card-text" id="wydawnictwo"><small class="text-muted">Wydawnictwo Literackie</small></p>
+                <p class="card-text" id="kategoria"><small class="text-muted">literatura piękna</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-6" id="lalka">
+            <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="img/lalka.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title" id="tytul">Lalka</h5>
+                <p class="card-text" id="autor">Prus Bolesław</p>
+                <p class="card-text" id="wydawnictwo"><small class="text-muted">Wydawnictwo Zakład Narodowy im. Ossolińskich</small></p>
+                <p class="card-text" id="kategoria"><small class="text-muted">klasyka</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-6" id="java-podstawy-wydanie-x">
+            <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="img/java-x.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title" id="tytul">Java. Podstawy. Wydanie X</h5>
+                <p class="card-text" id="autor">Horstmann Cay S.</p>
+                <p class="card-text" id="wydawnictwo"><small class="text-muted">Wydawnictwo Helion</small></p>
+                <p class="card-text" id="kategoria"><small class="text-muted">informatyka</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-6" id="ostatnie-zyczenie">
+            <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="img/ostatnie-zyczenia.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title" id="tytul">Ostatnie życzenie</h5>
+                <p class="card-text" id="autor">Sapkowski Andrzej</p>
+                <p class="card-text" id="wydawnictwo"><small class="text-muted">Wydawnictwo superNOWA</small></p>
+                <p class="card-text" id="kategoria"><small class="text-muted">fantasy</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-6" id="rasputin">
+            <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="img/rasputin.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title" id="tytul">Rasputin. Wiara, władza i zmierzch dynastii Romanowów</h5>
+                <p class="card-text" id="autor">Smith Douglas</p>
+                <p class="card-text" id="wydawnictwo"><small class="text-muted">Wydawnictwo Literackie</small></p>
+                <p class="card-text" id="kategoria"><small class="text-muted">biografia</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-6" id="ksiegi-jakubowe">
+            <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="img/ksiegi-jakubowe.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title" id="tytul">Księgi Jakubowe</h5>
+                <p class="card-text" id="autor">Tokarczuk Olga</p>
+                <p class="card-text" id="wydawnictwo"><small class="text-muted">Wydawnictwo Literackie</small></p>
+                <p class="card-text" id="kategoria"><small class="text-muted">powieść historyczna</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-6" id="caeremoniale-episcoporum">
+            <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="img/caeremoniale-episcoporum.jpg" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Cæremoniale Episcoporum</h5>
+                <p class="card-text">praca zbiorowa</p>
+                <p class="card-text"><small class="text-muted">Wydawnictwo Libreria Editrice Vaticana</small></p>
+                <p class="card-text" id="kategoria"><small class="text-muted">księga liturgiczna</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+    <div class="card border-success p-3 text-right">
+        <blockquote class="blockquote text-success mb-0">
+          <p>Czytanie książek to najpiękniejsza zabawa, jaką sobie ludzkość wymyśliła</p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              Wisława Szymborska
+            </small>
+          </footer>
+        </blockquote>
+  </div>
+      <div class="card text-center" id="stopka">
+        <div class="card-footer text-muted">
+        &copy; Adrian Jonarski 106445
+        </div>
+     </div>
+</div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="books.js"></script>
+  </body>
+</html>
